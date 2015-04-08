@@ -132,7 +132,7 @@
 
       <footer>
         <p>&copy; UpTell 2015</p>
-          <!--Google Translator Plugin-->
+          <!--Google Translator Plug-in-->
         <div id="google_translate_element"></div>
 		<script type="text/javascript">
 function googleTranslateElementInit() {
