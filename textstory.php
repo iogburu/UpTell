@@ -100,6 +100,10 @@
  <hr>
  <div id="storyText" class="col-xs-12 col-sm-12">
 <form>
+<label>Title:*</label><br />
+<input type="text" name="title"><br />
+<label>Description:*</label><br />
+<textarea name="description" rows="5" cols="50"></textarea><br /><br />
             <textarea name="textEditor" id="textEditor">
                 Prompt User with Different Types of Stories
             </textarea>
