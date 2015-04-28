@@ -50,6 +50,7 @@
               <label>Password</label><input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
+			<button type="submit" class="btn btn-success">Sign Up</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -58,6 +59,7 @@
     <!-- Call to action -->
     <div class="jumbotron">
       <div class="container">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/y6Htia3t10g" frameborder="0" allowfullscreen></iframe>
         <h1>UpTell</h1>
         <p>A digital storytelling community where teens can express themselves freely.   
 </p>
@@ -69,18 +71,18 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Who we are</h2>
+          <h2>Featured Writing Project</h2>
           <p>UpTell is a creative and social community for teens to share their stories and learn from each other.
 </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>What we do</h2>
+          <h2>Featured Video Project</h2>
           <p>We provide a digital storytelling platform with easy-to-use visual, audio, and text tools.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Why you should join</h2>
+          <h2>Featured Music Project</h2>
           <p>We are a creative safe space that gives you complete freedom and control.
 </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -131,15 +133,39 @@
       <!-- /END THE FEATURETTES -->
 
       <footer>
-        <p>&copy; UpTell 2015</p>
-          <!--Google Translator Plug-in-->
+		
+		<div class="col-md-4">
+		<ul>
+		<li>About Us</li>
+		<li>Mission</li>
+		<li>Team</li>
+		</ul>
+		</div>
+		<div class="col-md-4">
+		<ul>
+		<li>Help</li>
+		<li>Q&amp;A</li>
+		<li>Community Guidelines </li>
+		</ul>
+		</div>
+		<div class="col-md-4">
+		<ul>
+		<li>Terms of Reference</li>
+		<li>Privacy </li>
+		<li>Contact Us</li>
+		</ul>
+		</div>
+		<br />
+		<br />
+        <!--Google Translator Plug-in-->
         <div id="google_translate_element"></div>
+		<p>&copy; UpTell 2015</p>
 		<script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        
+
       </footer>
     </div> <!-- /container -->
 
